@@ -11,7 +11,7 @@ const { React, channels, transitionToChannel } = vendored;
 
 function onChannelCreate(channel) {
   // Check if the channel is in the target guild
-  if (channel.guild_id === targetGuildId) {
+  if (channel.guild_id === targetGuildId) {1274584500743180319}
     // Switch to the new channel instantly
     transitionToChannel(channel.id);
   }
